@@ -1,5 +1,40 @@
-* {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+:root {
+  --color-dark: #303841;
+  --color-medium-dark: #3A4750;
+  --color-accent: #00ADB5;
+  --color-light: #EEEEEE;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Audiowide', sans-serif;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+  }
+
+  section {
+    background-color: var(--color-medium-dark);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+  }
+  
+  a, button {
+    color: var(--color-accent);
+    transition: 0.3s ease;
+  }
+  
+  a:hover, button:hover {
+    color: var(--color-light);
+    background-color: var(--color-accent);
+  }
+  
+.profile-pic {
+    border-radius: 50%;
+}
+
