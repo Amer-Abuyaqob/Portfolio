@@ -59,3 +59,38 @@ body {
     width: 350px;
   }
 
+  .welcome-text {
+    font-size: 110%;
+    margin-right: 5rem;
+  }
+
+  .welcome-text h3 {
+    color: var(--color-accent);
+    margin-bottom: 16px;
+  }
+
+  .get-resume {
+    background-color: var(--color-accent);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 25%;
+    margin-bottom: 16px;
+  }
+
+  .get-resume a {
+    background-color: var(--color-accent);
+    color: var(--color-light);
+  }
+
+  .socials {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .social-icon {
+    width: 50px;
+  }
+
