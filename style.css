@@ -37,7 +37,24 @@ body {
     background-color: var(--color-accent);
   }
 
-  .profile {
+  .name-major-container {
+    text-align: left;
+    font-size: 160%;
+    max-height: 300px;
+  }
 
+  .profile-name {
+    margin-bottom: 16px;
+  }
+
+  .profile-major {
+    color: var(--color-accent);
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    border: 5px, solid, var(--color-dark);
+    height: 350px;
+    width: 350px;
   }
 
